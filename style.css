@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Titulo da página */
+.title-blog {
+    padding: 10px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Card para inserir posts */
+.inserir-post {
+    display: block;
+    width: 600px;
+    height: 220px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+/* Titulo do card */
+.titulo-post {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Area de Texto do Card */
+#titlefield {
+    padding: 5px;
+    margin: 6px;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    background-color: #cac9c9;
+    border: none;
+}
+
+#bodyfield {
+    padding: 5px;
+    margin: 6px;
+    border-radius: 10px;
+    height: 40px;
+    width: 380px;
+    background-color: #cac9c9;
+    border: none;
+}
+
+#inserirButton {
+    padding: 5px;
+    margin: 6px;
+    border-radius: 10px;
+    height: 30px;
+    width: 180px;
+    background-color: #b3b3b3;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+#inserirButton:hover {
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Lista de Posts */
+
+.posts {
+    column-count: 3;
+    padding: 20px;
+    margin: 9px;
+    column-width: 250px;
+    column-gap: 20px;
+    flex-flow: column wrap;
+}
+
+.posts div {
+    background-color: #ccc;
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 10px;
+    gap: 30px;
+    margin: 10px;
+    border: 3px solid #b3b3b3;
+}
+
+.posts h1 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+}
+
+.posts p {
+    color: #2c2c2c;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Trebuchet MS';
+}
+
+.posts hr {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #cac9c9;
+}
+
+/* Area Footer */
+.area-footer {
+    color: #333;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
